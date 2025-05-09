@@ -1,5 +1,5 @@
-NAME = Poly
-SRCS = main.cpp ClapTrap.cpp
+NAME = Animal
+SRCS = main.cpp Animal.cpp Cat.cpp Dog.cpp
 OBJS	=	${SRCS:%.c=${OBJDIR}/%.o}
 CFLAGS = -Werror -Wextra -Wall -std=c++98
 CC = c++
