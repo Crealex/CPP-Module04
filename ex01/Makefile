@@ -1,5 +1,5 @@
 NAME = Animal
-SRCS = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp
+SRCS = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp Brain.cpp
 OBJS	=	${SRCS:%.c=${OBJDIR}/%.o}
 CFLAGS = -Werror -Wextra -Wall -std=c++98
 CC = c++
@@ -57,5 +57,5 @@ display_ascii:
 		cat ascii_art.txt; \
 	fi
 	@echo "$(END)"
-	@echo "${BOLD}${L_PURPLE} ✨CPP-Module04-ex00✨ ${GREEN}is ready 🎉 ${END}"
+	@echo "${BOLD}${L_PURPLE} ✨CPP-Module04-ex01✨ ${GREEN}is ready 🎉 ${END}"
 	@echo "${BOLD}${BLUE}➜ Use ./${NAME} to run the program${END}"
