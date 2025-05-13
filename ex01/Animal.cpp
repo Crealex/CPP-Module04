@@ -40,3 +40,10 @@ std::string Animal::getType() const
 	return (this->_type);
 }
 
+// DO NOT USE !!!!!!!!!!
+
+Brain &Animal::getBrain() const
+{
+	Brain *brain = new Brain;
+	return (*brain);
+}

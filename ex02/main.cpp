@@ -1,17 +1,16 @@
 
 #include "Dog.hpp"
 #include "Cat.hpp"
-#include "Animal.hpp"
+#include "AAnimal.hpp"
 #include "WrongCat.hpp"
 #include "colors.h"
 
 int main()
 {
-	Animal* animals[10];
+	AAnimal* animals[10];
 	Dog a;
 	Dog b;
 	Dog ca(a);
-	Animal test;
 
 	for (int i = 0; i < 5; i++)
 		animals[i] = new Cat;
