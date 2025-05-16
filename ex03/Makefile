@@ -1,7 +1,7 @@
-NAME = Animal
-SRCS = main.cpp AAnimal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp Brain.cpp
+NAME = Materia
+SRCS = main.cpp AMateria.cpp Character.cpp Cure.cpp Ice.cpp List.cpp MateriaSource.cpp
 OBJS	=	${SRCS:%.c=${OBJDIR}/%.o}
-CFLAGS = -Werror -Wextra -Wall -std=c++98
+CFLAGS = -Werror -Wextra -Wall -std=c++98 -g
 CC = c++
 
 # Colors and style

@@ -27,6 +27,7 @@ AMateria &AMateria::operator=(const AMateria &rhs)
 	if (this->_type != rhs._type)
 		this->_type = rhs._type;
 	std::cout << LIGHT_BLUE << "Assignment operator for AMateria called" << std::endl;
+	return (*this);
 }
 
 std::string const &AMateria::getType() const
